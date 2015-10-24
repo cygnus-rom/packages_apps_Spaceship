@@ -50,6 +50,10 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Display media cover art</string>	
+    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+
     <!-- Statusbar categories -->
     <string name="ls_disable_statusbar">Statusbar Mods</string>
 
