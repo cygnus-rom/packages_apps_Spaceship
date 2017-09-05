@@ -18,6 +18,7 @@ package com.cygnus.spaceship.fragments;
 import android.content.ContentResolver;
 import android.os.Bundle;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -25,8 +26,12 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
 
+import com.cygnus.spaceship.extras.Utils;
+
 public class NotificationSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,12 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.spaceship_notification_settings);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(incallVibCategory);
+        }
+
     }
 
     @Override

@@ -288,6 +288,11 @@
     <!-- Notification channels -->
     <string name="channel_light_settings_id" translatable="false">light_settings</string>
     <string name="channel_light_settings_name">Light settings preview</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
     <!-- Gestures Category -->
     <!-- Three-fingers-swipe to screenshot -->
