@@ -67,4 +67,13 @@
     <string name="volume_rocker_wake_title">Wake device</string>
     <string name="volume_rocker_wake_summary">Press volume keys to wake your device</string>
 
+
+
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+
 </resources>
