@@ -209,6 +209,11 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     }
 
     @Override
+    public int getDialogMetricsCategory(int dialogId) {
+        return MetricsProto.MetricsEvent.SPACESHIP;
+     }
+
+    @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SPACESHIP;
     }
