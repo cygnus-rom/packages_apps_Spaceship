@@ -33,4 +33,16 @@
 	
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Goodies that don\'t fit in above categories</string>
+
+
+
+    <!-- Lockscreen -->
+
+    <!-- Lockscreen Categories -->
+    <string name="ls_disable_elements">Elements</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Charging info</string>
+    <string name="lockscreen_battery_info_summary">Display charger max current, voltage and battery temperature while charging</string>
+
 </resources>
