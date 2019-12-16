@@ -18,4 +18,25 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="spaceship_title">Spaceship</string>
     <string name="spaceship_summary">Absolutely Stunning</string>
+	
+	<string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_summary">Network traffic, battery, icons</string>
+	
+	<string name="quick_settings_title">Quick Settings</string>
+    <string name="quick_settings_summary">QS tile, brightness</string>
+	
+	<string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Wake, sleep etc</string>
+	
+	<string name="lockscreen_title">Lock Screen</string>
+    <string name="lockscreen_summary">Weather, Chanrging, Artwork</string>
+	
+	<string name="powermenu_title">Power Menu</string>
+    <string name="powermenu_summary">Advanced Reboot, Flashlight</string>
+	
+	<string name="notification_title">Notification</string>
+    <string name="notification_summary">Heads up, charging light etc.</string>
+	
+	<string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Extra goodies</string>
 </resources>
