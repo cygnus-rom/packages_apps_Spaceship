@@ -18,4 +18,19 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="spaceship_title">Spaceship</string>
     <string name="spaceship_summary">Enter the WarpDrive</string>
+	
+    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_summary">Customise your status bar</string>
+	
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Swipe it away!</string>
+	
+    <string name="lockscreen_title">Lock Screen</string>
+    <string name="lockscreen_summary">Make it less boring</string>
+	
+    <string name="notification_title">Notification Behavior</string>
+    <string name="notification_summary">Make notifications truly yours</string>
+	
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Goodies that don\'t fit in above categories</string>
 </resources>

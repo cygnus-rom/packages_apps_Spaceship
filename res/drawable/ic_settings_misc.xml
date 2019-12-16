@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 Cygnus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="408"
+    android:viewportHeight="408">
+    <path
+        android:fillColor="?android:attr/colorControlNormal"
+        android:pathData="M168.3,132.6L35.7,0L0,35.7l132.6,132.6L168.3,132.6zM267.75,0l51,51L0,372.3L35.7,408L357,89.25l51,51V0H267.75zM275.4,239.7l-35.7,35.7l79.05,79.05l-51,51H408V265.2l-51,51L275.4,239.7z" />
+</vector>
