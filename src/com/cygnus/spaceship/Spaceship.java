@@ -17,7 +17,9 @@
 package com.cygnus.spaceship;
 
 import android.os.Bundle;
-
+import android.view.View;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -30,6 +32,12 @@ public class Spaceship extends SettingsPreferenceFragment {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.spaceship);
     }
+	
+	@Override
+	public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+		super.onViewCreated(view, savedInstanceState);
+		getListView().setBackgroundResource(R.drawable.spaceship_background);
+	}
 
     @Override
     public int getMetricsCategory() {

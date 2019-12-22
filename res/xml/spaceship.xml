@@ -28,11 +28,19 @@
 		
 	<!-- Quick Settings -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
-        android:key="statusbar_category"
+        android:key="quick_settings_category"
         android:title="@string/quick_settings_title"
 		android:summary="@string/quick_settings_summary"
         android:fragment="com.cygnus.spaceship.fragments.QuickSettings"
         android:icon="@drawable/ic_settings_quicksettings"/>
+		
+	<!-- Buttons -->
+    <com.cygnus.spaceship.preferences.SpaceshipPreference
+        android:key="buttons_category"
+        android:title="@string/buttons_title"
+		android:summary="@string/buttons_summary"
+        android:fragment="com.cygnus.spaceship.fragments.ButtonSettings"
+        android:icon="@drawable/ic_settings_buttons"/>
 		
 	<!-- Guestures -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference

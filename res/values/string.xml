@@ -19,11 +19,15 @@
     <string name="spaceship_title">Spaceship</string>
     <string name="spaceship_summary">Absolutely Stunning</string>
 	
+	<!-- Categories -->
 	<string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Network traffic, battery, icons</string>
 	
 	<string name="quick_settings_title">Quick Settings</string>
     <string name="quick_settings_summary">QS tile, brightness</string>
+		
+	<string name="buttons_title">Buttons</string>
+    <string name="buttons_summary">Volume Key, hardware buttons etc.</string>
 	
 	<string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Wake, sleep etc</string>
