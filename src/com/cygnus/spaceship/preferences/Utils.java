@@ -38,6 +38,8 @@ import android.view.DisplayInfo;
 import android.view.Surface;
 import android.view.WindowManager;
 
+import static org.lineageos.internal.util.DeviceKeysConstants.*;
+
 public final class Utils {
     private static final String TAG = "CygnusSpaceshipUtils";
 
@@ -48,6 +50,14 @@ public final class Utils {
 
     // Device type reference
     private static int sDeviceType = -1;
+	
+	
+    /* returns whether the device has volume rocker or not. */
+    public static boolean hasVolumeRocker(Context context) {
+        final int deviceKeys = context.getResources().getInteger(
+                org.lineageos.platform.internal.R.integer.config_deviceHardwareKeys);
+        return (deviceKeys & KEY_MASK_VOLUME) != 0;
+    }
 
     /**
      * Returns whether the device is voice-capable (meaning, it is also a phone).
