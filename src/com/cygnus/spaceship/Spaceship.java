@@ -16,6 +16,7 @@
 
 package com.cygnus.spaceship;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import androidx.annotation.NonNull;
@@ -32,12 +33,22 @@ public class Spaceship extends SettingsPreferenceFragment {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.spaceship);
     }
-	
-	@Override
-	public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-		super.onViewCreated(view, savedInstanceState);
-		getListView().setBackgroundResource(R.drawable.spaceship_background);
-	}
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        int currentNightMode = getContext().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+        switch (currentNightMode) {
+            case Configuration.UI_MODE_NIGHT_NO:
+                // Night mode is not active, we're using the light theme
+                getListView().setBackgroundResource(R.drawable.spaceship_background);
+                break;
+            case Configuration.UI_MODE_NIGHT_YES:
+                // Night mode is active, we're using dark theme
+                getListView().setBackgroundResource(R.drawable.spaceship_background_dark);
+                break;
+        }
+    }
 
     @Override
     public int getMetricsCategory() {

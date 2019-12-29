@@ -73,7 +73,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.statusbar_settings);
+        addPreferencesFromResource(R.xml.spaceship_statusbar_settings);
 
         mNetworkTrafficPref = (PreferenceScreen) findPreference(NETWORK_TRAFFIC_SETTINGS);
 

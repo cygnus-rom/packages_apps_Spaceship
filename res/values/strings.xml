@@ -22,9 +22,6 @@
 	<!-- Categories -->
 	<string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Network traffic, battery, icons</string>
-	
-	<string name="quick_settings_title">Quick Settings</string>
-    <string name="quick_settings_summary">QS tile, brightness</string>
 		
 	<string name="buttons_title">Buttons</string>
     <string name="buttons_summary">Volume Key, hardware buttons etc.</string>
@@ -38,7 +35,7 @@
 	<string name="powermenu_title">Power Menu</string>
     <string name="powermenu_summary">Advanced Reboot, Flashlight</string>
 	
-	<string name="notification_title">Notification</string>
+	<string name="notification_title">Notifications</string>
     <string name="notification_summary">Heads up, charging light etc.</string>
 	
 	<string name="misc_title">Miscellaneous</string>

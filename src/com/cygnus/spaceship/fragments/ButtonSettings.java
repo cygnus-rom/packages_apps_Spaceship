@@ -134,7 +134,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.button_settings);
+        addPreferencesFromResource(R.xml.spaceship_button_settings);
 
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
