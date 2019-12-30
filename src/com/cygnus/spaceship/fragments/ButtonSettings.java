@@ -49,7 +49,7 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
 
-import com.cygnus.spaceship.preferences.Utils;
+import com.cygnus.spaceship.extras.Utils;
 import com.cygnus.spaceship.preferences.ButtonBacklightBrightness;
 
 import org.lineageos.internal.util.ScreenType;

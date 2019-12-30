@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.cygnus.spaceship.preferences;
+package com.cygnus.spaceship.extras;
 
 import android.app.Activity;
 import android.content.Context;

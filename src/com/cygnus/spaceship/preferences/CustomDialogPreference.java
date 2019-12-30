@@ -15,7 +15,6 @@
  */
 package com.cygnus.spaceship.preferences;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -23,9 +22,10 @@ import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.annotation.NonNull;
 import androidx.preference.DialogPreference;
-import androidx.preference.PreferenceDialogFragment;
+import androidx.preference.PreferenceDialogFragmentCompat;
 
 public class CustomDialogPreference<T extends DialogInterface> extends DialogPreference {
 
@@ -97,7 +97,7 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
         return true;
     }
 
-    public static class CustomPreferenceDialogFragment extends PreferenceDialogFragment {
+    public static class CustomPreferenceDialogFragment extends PreferenceDialogFragmentCompat {
 
         public static CustomPreferenceDialogFragment newInstance(String key) {
             final CustomPreferenceDialogFragment fragment = new CustomPreferenceDialogFragment();

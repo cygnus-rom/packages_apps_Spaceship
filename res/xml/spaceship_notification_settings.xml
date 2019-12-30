@@ -16,4 +16,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/notification_title">
 
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category_title">
+	
+        <PreferenceScreen
+            android:fragment="com.cygnus.spaceship.fragments.NotificationLightSettings"
+            android:key="notification_light_settings"
+            android:title="@string/notification_light_title"
+            android:summary="@string/notification_light_summary" />
+	
+        <PreferenceScreen
+            android:fragment="com.cygnus.spaceship.fragments.BatteryLightSettings"
+            android:key="battery_light_settings"
+            android:title="@string/battery_light_title"
+            android:summary="@string/battery_light_summary" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
