@@ -59,11 +59,11 @@
         android:icon="@drawable/ic_settings_notifications"/>
 	
 	<!-- Miscellaneous -->
-    <com.cygnus.spaceship.preferences.SpaceshipPreference
+    <!-- <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="misc_category"
         android:title="@string/misc_title"
         android:summary="@string/misc_summary"
         android:fragment="com.cygnus.spaceship.fragments.MiscSettings"
-        android:icon="@drawable/ic_settings_misc"/>
+        android:icon="@drawable/ic_settings_misc"/> -->
 
 </PreferenceScreen>
