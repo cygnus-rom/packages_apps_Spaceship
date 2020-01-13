@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="spaceship_title">Spaceship</string>
-    <string name="spaceship_summary">Absolutely Stunning</string>
+    <string name="spaceship_summary">Enter WarpDrive</string>
 
     <!-- Common -->
     <string name="disabled">Disabled</string>
