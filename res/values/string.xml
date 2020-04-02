@@ -24,6 +24,9 @@
 	
     <string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Swipe it away!</string>
+
+    <string name="buttons_title">Buttons</string>
+    <string name="buttons_summary">Volume Key, hardware buttons etc.</string>
 	
     <string name="lockscreen_title">Lock Screen</string>
     <string name="lockscreen_summary">Make it less boring</string>
