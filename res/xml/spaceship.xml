@@ -18,47 +18,55 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/spaceship_title">
 
-	<!-- Status Bar -->
+    <!-- Status Bar -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="statusbar_category"
         android:title="@string/statusbar_title"
         android:summary="@string/statusbar_summary"
         android:fragment="com.cygnus.spaceship.fragments.StatusbarSettings"
         android:icon="@drawable/ic_settings_statusbar"/>
-				
-	<!-- Guestures -->
+
+    <!-- Gestures -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="gestures_category"
         android:title="@string/gestures_title"
         android:summary="@string/gestures_summary"
         android:fragment="com.cygnus.spaceship.fragments.GesturesSettings"
         android:icon="@drawable/ic_settings_gesture"/>
-	
-	<!-- Lock Screen -->
+
+    <!-- Buttons -->
+    <com.cygnus.spaceship.preferences.SpaceshipPreference
+        android:key="buttons_category"
+        android:title="@string/buttons_title"
+        android:summary="@string/buttons_summary"
+        android:fragment="com.cygnus.spaceship.fragments.ButtonSettings"
+        android:icon="@drawable/ic_settings_buttons"/>
+
+    <!-- Lock Screen -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="lockscreen_category"
         android:title="@string/lockscreen_title"
         android:summary="@string/lockscreen_summary"
         android:fragment="com.cygnus.spaceship.fragments.LockscreenSettings"
         android:icon="@drawable/ic_settings_lockscreen"/>
-		
-	<!-- Power Menu -->
+	
+    <!-- Power Menu -->
     <!--<com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="powermenu_category"
         android:title="@string/powermenu_title"
         android:summary="@string/powermenu_summary"
         android:fragment="com.cygnus.spaceship.fragments.PowermenuSettings"
         android:icon="@drawable/ic_settings_powermenu"/> -->
-		
-	<!-- Notifications -->
+	
+    <!-- Notifications -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="notification_category"
         android:title="@string/notification_title"
         android:summary="@string/notification_summary"
         android:fragment="com.cygnus.spaceship.fragments.NotificationSettings"
         android:icon="@drawable/ic_settings_notifications"/>
-	
-	<!-- Miscellaneous -->
+
+    <!-- Miscellaneous -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="misc_category"
         android:title="@string/misc_title"
