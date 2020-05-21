@@ -19,20 +19,20 @@
     android:title="@string/spaceship_title">
 
     <!-- Status Bar -->
-    <com.cygnus.spaceship.preferences.SpaceshipPreference
+<!--    <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="statusbar_category"
         android:title="@string/statusbar_title"
         android:summary="@string/statusbar_summary"
         android:fragment="com.cygnus.spaceship.fragments.StatusbarSettings"
-        android:icon="@drawable/ic_settings_statusbar"/>
+        android:icon="@drawable/ic_settings_statusbar"/> -->
 
     <!-- Gestures -->
-    <com.cygnus.spaceship.preferences.SpaceshipPreference
+<!--    <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="gestures_category"
         android:title="@string/gestures_title"
         android:summary="@string/gestures_summary"
         android:fragment="com.cygnus.spaceship.fragments.GesturesSettings"
-        android:icon="@drawable/ic_settings_gesture"/>
+        android:icon="@drawable/ic_settings_gesture"/> -->
 
     <!-- Buttons -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
@@ -59,12 +59,12 @@
         android:icon="@drawable/ic_settings_powermenu"/> -->
 	
     <!-- Notifications -->
-    <com.cygnus.spaceship.preferences.SpaceshipPreference
+   <!-- <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="notification_category"
         android:title="@string/notification_title"
         android:summary="@string/notification_summary"
         android:fragment="com.cygnus.spaceship.fragments.NotificationSettings"
-        android:icon="@drawable/ic_settings_notifications"/>
+        android:icon="@drawable/ic_settings_notifications"/> -->
 
     <!-- Miscellaneous -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
