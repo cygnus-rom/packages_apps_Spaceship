@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2019 Cygnus Project
+    Copyright © 2021 Cygnus Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -53,6 +53,8 @@
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>	
     <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="lockscreen_media_art_category_title">Media art</string>
 
     <!-- Statusbar categories -->
     <string name="ls_disable_statusbar">Statusbar Mods</string>
