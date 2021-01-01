@@ -37,6 +37,10 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Goodies that don\'t fit in above categories</string>
 
+    <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Default</string>
