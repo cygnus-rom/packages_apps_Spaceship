@@ -19,12 +19,12 @@
     android:title="@string/spaceship_title">
 
     <!-- Status Bar -->
-<!--    <com.cygnus.spaceship.preferences.SpaceshipPreference
+    <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="statusbar_category"
         android:title="@string/statusbar_title"
         android:summary="@string/statusbar_summary"
         android:fragment="com.cygnus.spaceship.fragments.StatusbarSettings"
-        android:icon="@drawable/ic_settings_statusbar"/> -->
+        android:icon="@drawable/ic_settings_statusbar"/> 
 
     <!-- Gestures -->
 <!--    <com.cygnus.spaceship.preferences.SpaceshipPreference
@@ -35,12 +35,12 @@
         android:icon="@drawable/ic_settings_gesture"/> -->
 
     <!-- Buttons -->
-    <com.cygnus.spaceship.preferences.SpaceshipPreference
+<!--    <com.cygnus.spaceship.preferences.SpaceshipPreference
         android:key="buttons_category"
         android:title="@string/buttons_title"
         android:summary="@string/buttons_summary"
         android:fragment="com.cygnus.spaceship.fragments.ButtonSettings"
-        android:icon="@drawable/ic_settings_buttons"/>
+        android:icon="@drawable/ic_settings_buttons"/> -->
 
     <!-- Lock Screen -->
     <com.cygnus.spaceship.preferences.SpaceshipPreference
