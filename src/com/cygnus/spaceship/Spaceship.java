@@ -41,11 +41,11 @@ public class Spaceship extends SettingsPreferenceFragment {
         switch (currentNightMode) {
             case Configuration.UI_MODE_NIGHT_NO:
                 // Night mode is not active, we're using the light theme
-                getListView().setBackgroundResource(R.drawable.spaceship_background);
+                // getListView().setBackgroundResource(R.drawable.spaceship_background);
                 break;
             case Configuration.UI_MODE_NIGHT_YES:
                 // Night mode is active, we're using dark theme
-                getListView().setBackgroundResource(R.drawable.spaceship_background_dark);
+                // getListView().setBackgroundResource(R.drawable.spaceship_background_dark);
                 break;
         }
     }
